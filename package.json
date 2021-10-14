@@ -1,0 +1,26 @@
+{
+  "name": "JS101",
+  "version": "1.0.0",
+  "description": "Repo for JS101",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-cli": "^1.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allensunkim/JS101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allensunkim/JS101/issues"
+  },
+  "homepage": "https://github.com/allensunkim/JS101#readme"
+}
