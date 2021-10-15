@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Repo for JS101",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.12.1",
