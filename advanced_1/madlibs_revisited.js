@@ -54,7 +54,7 @@ function populate() {
 }
 
 function madlibs(template){
-  const sample = (type) => {
+  let getWord = (type) => {
     let partOfSpeech;
     switch(Number(type)) {
       case 1:
@@ -71,11 +71,10 @@ function madlibs(template){
       default:
         break;
     }
-    const wordCount = words[partOfSpeech].length;
-    const wordIndex = [Math.floor(Math.random() * wordCount)];
+    let wordIndex = Math.floor(Math.random() * words[partOfSpeech].length);
     return words[partOfSpeech][wordIndex];
   }
-  return template.replace(/(\d+)/g, sample);
+  return template.replace(/(\d+)/g, getWord);
 }
 
 const template1 = 
