@@ -24,7 +24,7 @@ let words = {
 
 // get random word from dictionary
 function randomWord() {
-  let wIndex = Math.floor((Math.random() * WORDCOUNT) + 1);
+  let wIndex = Math.floor(Math.random() * WORDCOUNT);
   return DICT[wIndex];
 }
 
