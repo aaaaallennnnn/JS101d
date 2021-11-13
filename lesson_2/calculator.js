@@ -7,7 +7,7 @@ const os = require('os');
 const rl = require('readline-sync');
 
 const NUM_REGEX = /\d*\.?\d+/;
-const OP_REGEX = /[-\+\*\/]/;
+const OP_REGEX = /[-+*/]/;
 
 // because no numpad = typos :(
 function trim(input, regex) {
